@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Home from '../src/Pages/Home'
+import Home from './Pages/Home'
+
 
 document.title="kindmeal.my"
 
