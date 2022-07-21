@@ -1,5 +1,4 @@
 .aboutsection {
-  border: 1px solid;
   padding-left: 125px;
   padding-right: 125px;
   padding-bottom: 30px;
@@ -48,7 +47,7 @@
   width: 180px;
   font-size: 15px;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  margin-left: 30px;
+  margin-left: 25px;
   color: gray;
   border: 1px solid rgb(228, 225, 225);
   border-width: thin;
@@ -64,3 +63,4 @@
   border: 0px;
   border-radius: 5px;
 }
+
