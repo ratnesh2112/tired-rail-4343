@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <Box bgColor="#2bb673">
-
       <HStack width="75%" margin="auto" justifyContent="space-between" padding="5px" color="white" fontSize="18px">
         <Link to="/">Home</Link>
         <Link to="">Meal Deals</Link>
@@ -16,7 +15,6 @@ const Navbar = () => {
         <Link to="">Articles</Link>
         <Link to="">Help</Link>
       </HStack>
-
     </Box>
   )
 }
