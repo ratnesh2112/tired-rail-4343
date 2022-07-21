@@ -6,8 +6,43 @@ import { Input,
       } from "@chakra-ui/react";
 
 import "./Recipe.css";
+import axios from "axios"
+import { useState, useEffect } from "react";
 
-const Recipe = () => {
+
+
+const Recipe = ({filters}) => {
+
+  const [resDetail, setResDetail] = useState([]);
+  const [filteredRes, setFilteredRes] = useState([]);
+
+  const fetchURL =
+    "https://raw.githubusercontent.com/euhidaman/Fake_APIs/main/restaurant_details.json";
+
+  useEffect(() => {
+    getAllResDetails();
+  }, []);
+
+  useEffect(() => {
+    setFilteredRes(
+      resDetail.filter((res) => Number(res.hotelRating) >= filters.rating)
+    );
+  }, [resDetail, filters]);
+
+  const getAllResDetails = () => {
+    axios
+      .get(fetchURL)
+      .then((res) => {
+        const allDetails = res.data.foodDetails;
+        setResDetail(allDetails);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
+
+
+
   return (
     <>
       <div className="conatiner_R">
@@ -39,7 +74,36 @@ const Recipe = () => {
             <Button colorScheme="green" className="shareButton">Share My Recipe</Button>
           </div>
         </div>
+
+         {/* second day work */}
+
+         <div className="button_Container">
+          <div className="button_row1">
+              <Button className="sortButton_1">All Categories</Button>
+              <Button className="sortButton_1">Appetizers</Button>
+              <Button className="sortButton_1">Beverages</Button>
+              <Button className="sortButton_1">Breakfast</Button>
+              <Button className="sortButton_1">Breads</Button>
+              <Button className="sortButton_1">Condiments</Button>
+          </div>
+          <div className="button_row1">
+              <Button className="sortButton_2">Desserts</Button>
+              <Button className="sortButton_2">Snacks</Button>
+              <Button className="sortButton_2">Main Dishes</Button>
+              <Button className="sortButton_2">Salads</Button>
+              <Button className="sortButton_2">Side Dishes</Button>
+              <Button className="sortButton_2">Soups</Button>
+          </div>
+         </div>
+
+
       </div>
+
+
+
+
+
+
     </>
   );
 };

@@ -53,3 +53,34 @@
     height: 20px;
     margin-left: 100px;
 }
+
+/* Sort Button  */
+
+.button_Container{
+    text-align: center;
+}
+
+.sortButton_1{
+    height: 48px;
+    width: 130px;
+    border: 1px solid #d8d8d8 ;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+.sortButton_2{
+    height: 48px;
+    width: 130px;
+    border: 1px solid #d8d8d8 ;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+/* size='md'
+  height='48px'
+  width='200px'
+  border='2px'
+  borderColor='green.500' */
