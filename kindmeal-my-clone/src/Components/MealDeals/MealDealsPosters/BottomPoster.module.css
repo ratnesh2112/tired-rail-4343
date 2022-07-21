@@ -1,3 +1,7 @@
-.bottomposter{
-    background-color: rgb(224,224,224);
+.bottomposter {
+  background-color: rgb(224, 224, 224);
+  height: 280px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 30px;
 }
