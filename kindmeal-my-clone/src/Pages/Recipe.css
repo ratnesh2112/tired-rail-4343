@@ -1,0 +1,55 @@
+*{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.foodheader{
+    background-color: rgb(240, 240, 240);
+    padding: 20px 0px 50px 200px;
+}
+
+.foodheader_2{
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.foodPara{
+    margin-bottom: 20px;
+}
+
+.foodDrink_heading{
+    font-size: 10px;
+    margin-bottom: 20px;
+
+}
+
+.yummyFood{
+    color: grey;
+    /* margin-top: 20px; */
+    
+}
+
+.inputBox{
+    flex-basis: 300px;
+   margin-right: 40px;
+}
+
+.selectBox{
+    width: 200px;
+    border-radius: 10px;
+}
+
+.searchButton{
+    width: 150px;
+    height: 20px;
+    font-size: 16px;
+    padding: 8px 15px 8px 15px;
+    border-radius: 6px;
+    margin-left: 30px;
+}
+
+.shareButton{
+    width: 150px;
+    height: 20px;
+    margin-left: 100px;
+}
