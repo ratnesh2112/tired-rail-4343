@@ -12,3 +12,15 @@ export const Register=(payload)=>(dispatch)=>{
      })
 
 }
+
+
+export const login=(params)=>(dispatch)=>{
+    dispatch({type:types.LOGIN_REQUEST})
+    return axios.post("https://reqres.in/api/login",params)
+    .then((r)=>{
+        dispatch({type:types.LOGIN_SUCCESS,payload:r.data.token})
+        return types.LOGIN_SUCCESS
+    }).catch((e)=>{
+        dispatch({type:types.LOGIN_FAILURE,payload:e})
+    })
+}

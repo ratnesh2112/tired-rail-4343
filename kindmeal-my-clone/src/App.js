@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import AllRoutes from './Components/AllRoutes';
+
 // import { MealDealsAbout } from './Components/MealDeals/MealDealsAbout/MealDealsAbout' 
 // import {BottomPoster} from './Components/MealDeals/MealDealsPosters/BottomPoster'
 // import {TopPoster} from './Components/MealDeals/MealDealsPosters/TopPoster'
@@ -14,7 +15,7 @@ function App() {
     <div className="App">
      
      <AllRoutes />
-     
+    
     </div>
   );
 }
