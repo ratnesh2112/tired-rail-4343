@@ -3,6 +3,8 @@ import { Route, Routes } from 'react-router-dom'
 import Home from '../Pages/Home'
 import Navbar from './Navbar'
 import TopSection from './TopSection'
+import Recipe from '../Pages/Recipe'
+import Footer from './Footer'
 
 const AllRoutes = () => {
   return (
@@ -11,7 +13,7 @@ const AllRoutes = () => {
         <Navbar />
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="" element={ ""} />
+            <Route path="recipe" element={ <Recipe /> } />
             <Route path="" element={""} />
             <Route path="" element={""} />
             <Route path="" element={""} />
@@ -22,6 +24,7 @@ const AllRoutes = () => {
             <Route path="" element={""} />
             <Route path="" element={""} />
         </Routes>
+        <Footer />
     </div>
   )
 }

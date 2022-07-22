@@ -7,10 +7,10 @@ const Navbar = () => {
     <Box bgColor="#2bb673">
       <HStack width="75%" margin="auto" justifyContent="space-between" padding="5px" color="white" fontSize="18px">
         <Link to="/">Home</Link>
-        <Link to="">Meal Deals</Link>
+        <Link to="mealdeal">Meal Deals</Link>
         <Link to="">KindMoments</Link>
         <Link to="">Hot Picks</Link>
-        <Link to="">Recipes</Link>
+        <Link to="recipe">Recipes</Link>
         <Link to="">Directory</Link>
         <Link to="">Articles</Link>
         <Link to="">Help</Link>
