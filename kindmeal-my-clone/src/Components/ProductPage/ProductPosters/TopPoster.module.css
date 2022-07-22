@@ -1,0 +1,47 @@
+.posterdiv{
+    /* border: 1px solid red; */
+    position: relative;
+}
+.image{
+    width: 100%;
+}
+.heading{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 180px;
+    opacity: .6;
+    /* margin-left: 370px; */
+    color: rgb(0,0,0);
+    font-size: 28px;
+    font-weight:600;
+    /* background-color: rgb(242,242,240); */
+    text-align: center;
+}
+.linkdivmain{
+    /* border: 1px solid blue; */
+    width: 500px;
+    /* display: flex; */
+}
+.linkdiv{
+    position: absolute;
+    left: 370px;
+    /* padding-top: 10px; */
+    /* border: 1px solid green; */
+    height: 42px;
+}
+.attribute{
+    margin-left: 15px;
+    line-height: 30px;
+    color: #444444;
+    font-size: 18px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+.logoimage{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 179px;
+    left: 129px;
+}
