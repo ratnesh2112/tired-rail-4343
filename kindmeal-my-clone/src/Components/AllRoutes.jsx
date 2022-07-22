@@ -5,6 +5,7 @@ import Navbar from './Navbar'
 import TopSection from './TopSection'
 import Recipe from '../Pages/Recipe'
 import Footer from './Footer'
+import { MealDeals } from '../Pages/MealDeals'
 
 const AllRoutes = () => {
   return (
@@ -14,7 +15,7 @@ const AllRoutes = () => {
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="recipe" element={ <Recipe /> } />
-            <Route path="" element={""} />
+            <Route path="mealdeal" element={<MealDeals />} />
             <Route path="" element={""} />
             <Route path="" element={""} />
             <Route path="" element={""} />
