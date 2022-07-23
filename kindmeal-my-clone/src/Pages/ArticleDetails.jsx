@@ -9,14 +9,13 @@ import {
   Text,
   Stack,
   Button,
-  useColorModeValue,
 } from '@chakra-ui/react';
-  import { useParams } from "react-router-dom";
+  import { useNavigate, useParams } from "react-router-dom";
 import { getArticleDetails } from '../redux/action';
 
 const ArticleDetails = () => {
     const params = useParams()
-
+    const navigate = useNavigate()
     
     const dispatch = useDispatch()
     const data = useSelector((state)=>state.articles.articlesDetails.articles||[])
@@ -35,7 +34,9 @@ const ArticleDetails = () => {
     // },[params.id,data])
 
 
-
+    const handleClick = ()=>{
+      navigate("/")
+    }
 
   return (
     <>
@@ -89,7 +90,7 @@ const ArticleDetails = () => {
 
               _focus={{
                 bg: 'blue.500',
-              }}>
+              }} onClick={handleClick}>
               Back to Article 
             
             </Button>
