@@ -13,6 +13,7 @@ import { FoodLoverSignup } from '../Pages/FoodLoverSignup'
 import { Login } from '../Pages/Login'
 import { ForgetPassword } from '../Pages/ForgetPassword'
 import ArticleDetails from '../Pages/ArticleDetails'
+import { PrivateRoute } from '../Pages/PrivateRoute'
 
 
 const AllRoutes = () => {
@@ -22,15 +23,25 @@ const AllRoutes = () => {
         <Navbar />
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="recipe" element={<Recipe /> } />
-            <Route path="mealdeal" element={<MealDeals />} />
+            <Route path="recipe" element={
+              <PrivateRoute>
+                <Recipe /> 
+              </PrivateRoute>
+              } 
+            />
+            <Route path="mealdeal" element={
+              <PrivateRoute>
+                <MealDeals /> 
+              </PrivateRoute>
+              } 
+            />
             <Route path="articles" element={<Articles />} />
             <Route path="help" element={<Help />} />
             <Route path="signupbutton" element={<SignupButtonBox />} />
             <Route path="/FoodSignup" element={<FoodLoverSignup />} />
             <Route path="/login" element={<Login />} />
             <Route path="/ForgetPassword'" element={<ForgetPassword />} />
-            <Route path="/name" element={<ArticleDetails />} />
+            <Route path="/articles/:name" element={<ArticleDetails />} />
             <Route path="" element={""} />
         </Routes>
         <Footer />
