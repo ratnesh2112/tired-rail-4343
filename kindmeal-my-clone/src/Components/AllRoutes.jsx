@@ -14,6 +14,7 @@ import { Login } from '../Pages/Login'
 import { ForgetPassword } from '../Pages/ForgetPassword'
 import ArticleDetails from '../Pages/ArticleDetails'
 import { PrivateRoute } from '../Pages/PrivateRoute'
+import {RecipeDetail} from '../Pages/RecipeDetail'
 
 
 const AllRoutes = () => {
@@ -42,7 +43,7 @@ const AllRoutes = () => {
             <Route path="/login" element={<Login />} />
             <Route path="/ForgetPassword'" element={<ForgetPassword />} />
             <Route path="/articles/:name" element={<ArticleDetails />} />
-            <Route path="" element={""} />
+            <Route path="RecipeDetail" element={<RecipeDetail />} />
         </Routes>
         <Footer />
     </div>
