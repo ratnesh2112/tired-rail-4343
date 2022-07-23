@@ -20,10 +20,10 @@ const ArticleDetails = () => {
     const dispatch = useDispatch()
     const data = useSelector((state)=>state.articles.articlesDetails.articles||[])
 
-    console.log("details999",data)
+    //console.log("details999",data)
     const [detailData,setDetailData] = useState({})
     useEffect(()=>{
-    dispatch(getArticleDetails(params.id))
+    dispatch(getArticleDetails(params.name))
     },[dispatch,params])
     
     // useEffect(()=>{

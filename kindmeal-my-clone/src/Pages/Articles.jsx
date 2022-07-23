@@ -16,7 +16,7 @@ function Articles() {
 const dispatch = useDispatch()
 const data = useSelector((state)=>state.articles.articles.articles||[])
 const navigate = useNavigate()
-console.log("data",data)
+//console.log("data",data)
 
   useEffect(()=>{
       dispatch(getArticle())
@@ -78,7 +78,7 @@ console.log("data",data)
             
             alignItems={'center'}>
            <Flex>
-            <Link to= { `/${item.id}` }>
+            <Link to= { `/articles/${item.name}` }>
               <Button
                 fontSize={'sm'}
                 bg={'red'}

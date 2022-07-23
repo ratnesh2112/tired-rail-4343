@@ -3,7 +3,7 @@ import React from 'react'
 import styles from "./footer.module.css"
 const Footer = () => {
   return (
-    <Box width="100%" height="350px" bgColor="#2bb673">
+    <Box width="100%" height="350px" bgColor="#2bb673" marginTop="25px">
       <Box width="65%" gap="30px" display="flex" margin="auto">
        
        <Box width="20%" textAlign="start" color="white" marginTop="20px">
