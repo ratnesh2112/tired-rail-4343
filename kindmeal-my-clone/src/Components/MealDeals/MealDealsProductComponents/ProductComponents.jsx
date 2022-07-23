@@ -1,13 +1,16 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styles from './ProductComponents.module.css'
 
-export const ProductComponents = ({data}) => {
+export const ProductComponents = ({ data }) => {
     return (
         <div className={styles.maindiv}>
-            <div className={styles.imagediv}>
-                <img className={styles.image} src={data.imageUrl} alt='productImage' />
-                <p className={styles.heading}>{data.foodName}</p>
-            </div>
+            <Link to={`productpage/${data.id}`}>
+                <div className={styles.imagediv}>
+                    <img className={styles.image} src={data.imageUrl} alt='productImage' />
+                    <p className={styles.heading}>{data.foodName}</p>
+                </div>
+            </Link>
             <div className={styles.infodiv}>
                 <p className={styles.dheading}>{data.cafeName} - </p>
                 <p className={styles.dsubheading}>{data.cafeLocation}</p>
