@@ -2,32 +2,30 @@ import React, { useEffect } from 'react'
 import { getArticle } from '../Redux/action'
 import {useDispatch,useSelector} from "react-redux"
 import {
-  Badge,
   Button,
   Center,
   Flex,
-  Heading,
   Image,
-  Link,
   Stack,
   Text,
-  useColorModeValue,
 } from '@chakra-ui/react';
+import { useNavigate } from 'react-router-dom';
 
 
 function Articles() {
 const dispatch = useDispatch()
 const data = useSelector((state)=>state.articles.articles.articles||[])
-
+const navigate = useNavigate()
 console.log("data",data)
 
   useEffect(()=>{
-   
       dispatch(getArticle())
-    
-   
-
   },[dispatch])
+
+
+// const handleClick = (name)=>{
+//   navigate(`/${name}`)
+// }
 
 
   return (
@@ -95,8 +93,9 @@ console.log("data",data)
 
               _focus={{
                 bg: 'blue.500',
-              }}>
-              <Link to={`/${item.publishedAt}`}> View Article </Link>
+              }} onClick={()=>navigate(`/${item.source.name}`)}>
+
+              View Article
             
             </Button>
             </Flex>

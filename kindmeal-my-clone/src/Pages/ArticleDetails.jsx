@@ -9,58 +9,62 @@ import {
   Text,
   Stack,
   Button,
-  useColorModeValue,
 } from '@chakra-ui/react';
-  import { useParams } from "react-router-dom";
-import { getArticle } from '../redux/action';
+  import { useNavigate, useParams } from "react-router-dom";
+import { getArticleDetails } from '../redux/action';
 
 const ArticleDetails = () => {
     const params = useParams()
+    const navigate = useNavigate()
+    
     const dispatch = useDispatch()
-    const data = useSelector((state)=>state.articles.articles.articles||[])
+    const data = useSelector((state)=>state.articles.articlesDetails.articles||[])
+
+    console.log("details999",data)
     const [detailData,setDetailData] = useState({})
     useEffect(()=>{
-    dispatch(getArticle())
+    dispatch(getArticleDetails(params.id))
     },[dispatch,params])
     
-    useEffect(()=>{
-    if(params.id){
-      const temp = data.find((item)=>item.id===Number(params.id))
-      temp && setDetailData(temp)
+    // useEffect(()=>{
+    // if(params.id){
+    //   const temp = data.find((item)=>item.id===Number(params.id))
+    //   temp && setDetailData(temp)
+    // }
+    // },[params.id,data])
+
+
+    const handleClick = ()=>{
+      navigate("/")
     }
-    },[params.id,data])
-
-
-
 
   return (
     <>
-     
+     {data.map((data)=>(
      <Stack py={6} marginLeft={"40px"}>
       <Box
         maxW={'945px'}
         w={'full'}
-        bg={useColorModeValue('white', 'gray.900')}
+        h={"600px"}
+        bg={('white', 'gray.900')}
         boxShadow={'2xl'}
         rounded={'md'}
         p={6}
         overflow={'hidden'}>
         <Box
-          h={'210px'}
-          bg={'gray.100'}
-          mt={-6}
-          mx={-6}
-          mb={6}
-          pos={'relative'}>
+          h={'200px'}
+         >
           <Image
+          h={"300px"}
+          w={"900px"}
             src={data.urlToImage}
             layout={'fill'}
           />
         </Box>
-        <Stack>
+        <Stack marginTop={"100px"}>
          
           <Heading
-            color={useColorModeValue('gray.700', 'white')}
+            color={('gray.700', 'white')}
             fontSize={'2xl'}
             fontFamily={'body'}>
            {data.title}
@@ -86,7 +90,7 @@ const ArticleDetails = () => {
 
               _focus={{
                 bg: 'blue.500',
-              }}>
+              }} onClick={handleClick}>
               Back to Article 
             
             </Button>
@@ -94,6 +98,7 @@ const ArticleDetails = () => {
         </Stack>
       </Box>
     </Stack>
+    ))}
     </>
   )
 }
