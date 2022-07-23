@@ -241,7 +241,7 @@ const Home = () => {
           Enjoy a great meat-free dining experience. Easily save animals lives, health, enviroment and money now!
         </p>
       </Box>
-      <Box width="30%" margin="auto" bgColor="red" color="white" padding="22px" borderRadius="15px" marginTop="50px">
+      <Box width="30%" margin="auto" bgColor="red" color="white" padding="22px" borderRadius="15px" marginTop="50px" _hover={{bgColor:"crimson"}}>
         <Link to="/FoodSignup">
           <Heading>Join KindMeal Now</Heading>
           <p>Your tasty journey begins here</p>

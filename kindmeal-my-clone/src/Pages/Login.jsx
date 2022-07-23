@@ -88,13 +88,13 @@ export  function Login() {
                 }}>
                Login With FaceBook
               </Button>
-              <Stack pt={6} direction={'row'} justifyContent={'space-between'} mt={'-1.5'}>
+              <Stack pt={6} direction={'row'} justifyContent={'space-between'} mt={'-1.5'} textDecoration={'underline'}>
                 {/* <Link to='/ForgetPassword'> */}
                 <ForgetPassword />
                 {/* </Link> */}
                 <Link to={'/Foodsignup'}>
                 <Text  textDecoration={'underline'}>
-               Not a member? color={'blue.400'} Sign up FREE
+               Not a member? Sign up FREE
               </Text>
                 </Link>
              
