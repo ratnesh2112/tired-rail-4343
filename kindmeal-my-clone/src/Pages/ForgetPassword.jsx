@@ -35,7 +35,7 @@ export const ForgetPassword = () => {
                    <Link to="/Login"> <Box>
                         <Text textDecoration={'underline'}>Member Login</Text>
                     </Box></Link>
-                   <Link to="/Signup"> <Box>
+                   <Link to="/FoodSignup"> <Box>
                         <Text textDecoration={'underline'}>Not a member? Sign up FREE!</Text>
                     </Box></Link>
                 </Flex>

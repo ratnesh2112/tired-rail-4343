@@ -1,7 +1,6 @@
 import { Box, VStack } from '@chakra-ui/react'
 import React from 'react'
 import styles from "./footer.module.css"
-
 const Footer = () => {
   return (
     <Box width="100%" height="350px" bgColor="#2bb673">
