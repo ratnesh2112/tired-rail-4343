@@ -12,8 +12,8 @@ const Navbar = () => {
         <Link to="">Hot Picks</Link>
         <Link to="recipe">Recipes</Link>
         <Link to="">Directory</Link>
-        <Link to="">Articles</Link>
-        <Link to="">Help</Link>
+        <Link to="articles">Articles</Link>
+        <Link to="help">Help</Link>
       </HStack>
     </Box>
   )

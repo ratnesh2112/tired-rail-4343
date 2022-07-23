@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { getArticle } from '../redux/action'
+import { getArticle } from '../Redux/action'
 import {useDispatch,useSelector} from "react-redux"
 import {
   Badge,

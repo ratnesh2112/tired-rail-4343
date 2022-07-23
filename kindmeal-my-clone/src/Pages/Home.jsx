@@ -183,8 +183,79 @@ const Home = () => {
           </GridItem>
         </Grid>
       </Box>
+      <Box>
+        <br /><br />
+        <h1 style={{fontSize :"40px" , color : "#707375"}}>Introducing The World's 1st Meat-Free Lifestyle Platform</h1>
       
-      
+        <br />
+      </Box>
+      <Box display= "flex" width="50%" margin = "auto" justifyContent="center">
+        <h1 style={{fontSize:"20px",color :"grey" , padding : "18px"}}>Brought to you by</h1>
+        <a href="https://www.petfinder.my/" target="blank"><img src="https://www.kindmeal.my/images/logo-petfinder.png" width="300px"/></a>
+      </Box>
+      <Box padding="25px">
+      <h1 style={{fontSize :"30px" , color : "grey"}}>Instant coupon & dining. No upfront coupon payment, booking or printing.</h1>
+      </Box>
+      <Box padding="25px" width="75%" margin ="auto">
+        <Grid templateColumns='repeat(4, 1fr)' gap={6}>
+          <GridItem style={{boxShadow :"rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px",height:"250px",borderRadius:"15px"}}>
+          <Link to="mealdeal">
+              <Img src="https://www.kindmeal.my/images/intro_deal.png" width="70%" height="50%"  margin="auto" padding="20px"/>
+              <Box marginTop="10px">
+                
+                  <h1 style={{color :"#707375",fontSize:"20px"}}>Get Great Deals</h1>
+                
+                <p style={{color :"grey",fontSize:"15px",padding:"10px"}}>Show our FREE digital coupons to instantly enjoy exciting deals</p>
+              </Box>
+            </Link>
+          </GridItem>
+          <GridItem style={{boxShadow :"rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px",height:"250px",borderRadius:"15px"}}>
+          <Img src="https://www.kindmeal.my/images/intro_kindmoment.png" width="50%" height="50%" margin="auto" padding="20px" />
+          <Box marginTop="10px">
+            <h1 style={{color :"#707375",fontSize:"20px"}}>Share KindMoments</h1>
+            <p style={{color :"grey",fontSize:"15px",padding:"10px"}}>Spread the joy by sharing your yummy dining moments</p>
+          </Box>
+          </GridItem>
+          <GridItem style={{boxShadow :"rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px",height:"250px",borderRadius:"15px"}}>
+          <Link to="recipe">
+            <Img src="https://www.kindmeal.my/images/intro_menu.png" width="70%" height="50%" margin="auto" padding="20px"/>
+            <Box marginTop="10px">
+              
+              <h1 style={{color :"#707375",fontSize:"20px"}}>Discover Delicious Food</h1>
+              
+              <p style={{color :"grey",fontSize:"15px",padding:"10px"}}>Explore the latest exquisite offerings and creative menus</p>
+            </Box>
+          </Link>
+          </GridItem>
+          <GridItem style={{boxShadow :"rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px",height:"250px",borderRadius:"15px"}}>
+          <Img src="https://www.kindmeal.my/images/intro_friends.png" width="70%" height="50%" margin="auto" padding="20px"/>
+          <Box marginTop="10px">
+           <h1 style={{color :"#707375",fontSize:"20px"}}>Meet Food Lovers</h1>
+           <p style={{color :"grey" ,fontSize:"15px",padding:"10px"}}>Make new,compassionate friends and share food tips</p>
+          </Box>
+          </GridItem>
+        </Grid>
+      </Box>
+      <Box style={{width:"70%",margin:"auto",fontSize:"20px",color :"#707375",marginTop:"60px"}}>
+        <p>Any restaurants or cafe can join KindMeal, vegetarian or not, as long as the deals and menu featured are meat-free.
+          Enjoy a great meat-free dining experience. Easily save animals lives, health, enviroment and money now!
+        </p>
+      </Box>
+      <Box width="30%" margin="auto" bgColor="red" color="white" padding="22px" borderRadius="15px" marginTop="50px">
+        <Link to="/FoodSignup">
+          <Heading>Join KindMeal Now</Heading>
+          <p>Your tasty journey begins here</p>
+        </Link>
+      </Box>
+      <Box>
+        <br /><br />
+        <p style={{fontSize:"28px",color:"#707375"}}>As Featured In</p>
+        <br />
+        <Img src='https://www.kindmeal.my/images/media-feature2.png' width="70%" margin ="auto" />
+      </Box>
+      <Box width="100%" bgColor="#ececec" marginTop="60px">
+        <Img src='https://www.kindmeal.my/images/banner_whykindmeal.png' width="70%" margin="auto" />
+      </Box>
     </Box>
   )
 }

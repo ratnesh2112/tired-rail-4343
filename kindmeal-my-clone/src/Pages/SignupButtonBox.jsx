@@ -31,10 +31,11 @@ export const SignupButtonBox = () => {
   }
   return (
     <>
-        <Button
+        <Text
           onClick={() => handleSizeClick(size)}
           m={5}
-        >SIGNUP</Button>
+          style = {{cursor:"pointer"}}
+        >SIGNUP</Text>
         
 
       <Modal onClose={onClose} isOpen={isOpen}  isCentered >

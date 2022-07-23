@@ -6,6 +6,12 @@ import TopSection from './TopSection'
 import Recipe from '../Pages/Recipe'
 import Footer from './Footer'
 import { MealDeals } from '../Pages/MealDeals'
+import Articles from '../Pages/Articles'
+import Help from '../Pages/Help/Help'
+import { SignupButtonBox } from '../Pages/SignupButtonBox';
+import { FoodLoverSignup } from '../Pages/FoodLoverSignup'
+import { Login } from '../Pages/Login'
+import { ForgetPassword } from '../Pages/ForgetPassword'
 
 const AllRoutes = () => {
   return (
@@ -16,12 +22,12 @@ const AllRoutes = () => {
             <Route path="/" element={<Home />} />
             <Route path="recipe" element={ <Recipe /> } />
             <Route path="mealdeal" element={<MealDeals />} />
-            <Route path="" element={""} />
-            <Route path="" element={""} />
-            <Route path="" element={""} />
-            <Route path="" element={""} />
-            <Route path="" element={""} />
-            <Route path="" element={""} />
+            <Route path="articles" element={<Articles />} />
+            <Route path="help" element={<Help />} />
+            <Route path="signupbutton" element={<SignupButtonBox />} />
+            <Route path="/FoodSignup" element={<FoodLoverSignup />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/ForgetPassword'" element={<ForgetPassword />} />
             <Route path="" element={""} />
             <Route path="" element={""} />
         </Routes>

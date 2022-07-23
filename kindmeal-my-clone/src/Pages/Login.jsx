@@ -12,10 +12,11 @@ import {
 } from '@chakra-ui/react';
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import {Link as RouterLink, } from "react-router-dom"
+import {Link, Link as RouterLink, } from "react-router-dom"
 import { login } from '../Redux/Auth/Action';
 import { LOGIN_SUCCESS } from '../Redux/Auth/ActionTypes';
 import { useNavigate } from 'react-router-dom';
+import { ForgetPassword } from './ForgetPassword';
 
 export  function Login() {
     const [username,Setusername]=useState("");
@@ -88,10 +89,15 @@ export  function Login() {
                Login With FaceBook
               </Button>
               <Stack pt={6} direction={'row'} justifyContent={'space-between'} mt={'-1.5'}>
-                <RouterLink to={'/ForgetPassword'} ><Text textDecoration={'underline'} cursor={'pointer'}>Forgot password?</Text></RouterLink>
-              <Text  textDecoration={'underline'}>
-               Not a member? <RouterLink to={'/signup'} color={'blue.400'}>Sign up FREE</RouterLink>
+                {/* <Link to='/ForgetPassword'> */}
+                <ForgetPassword />
+                {/* </Link> */}
+                <Link to={'/Foodsignup'}>
+                <Text  textDecoration={'underline'}>
+               Not a member? color={'blue.400'} Sign up FREE
               </Text>
+                </Link>
+             
             </Stack>
             </Stack>
           </Stack>

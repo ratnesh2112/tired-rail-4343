@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import AllRoutes from './Components/AllRoutes';
+import { ForgetPassword } from './Pages/ForgetPassword';
+// import {Signup} from './Pages/Signup'
+// import { SignupButtonBox } from './Pages/SignupButtonBox';
 
 // import { MealDealsAbout } from './Components/MealDeals/MealDealsAbout/MealDealsAbout' 
 // import {BottomPoster} from './Components/MealDeals/MealDealsPosters/BottomPoster'
@@ -15,7 +18,9 @@ function App() {
     <div className="App">
      
      <AllRoutes />
-    
+     {/* <Signup />
+     <SignupButtonBox /> */}
+    {/* <ForgetPassword /> */}
     </div>
   );
 }
