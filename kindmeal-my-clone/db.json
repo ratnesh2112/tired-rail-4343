@@ -1,0 +1,129 @@
+{
+    "MealDealsData": [
+      {
+          "imageUrl":"https://www.kindmeal.my/photos/deal/6/686-4475-l.jpg",
+          "foodName":"Blend of Asian Flavors",
+          "cafeName":"Figure Out Cafe",
+          "cafeLocation":"  Klang, Selangor",
+          "description1":"Let us Figure Out the most delicious blend of Asian flavors, pampering you within a relaxing atmosphere! Enjoy discount off a lar..",
+          "rating":"2",
+          "discount":"15% Off",
+          "expire":"13 Days",
+          "cafePoster":"https://www.kindmeal.my/photos/shop/5/570-c.jpg",
+          "cafeLogo":"https://www.kindmeal.my/photos/shop/5/570-4268-m.jpg",
+          "price":"RM16.00"
+      },
+      {
+          "imageUrl":"https://www.kindmeal.my/photos/deal/4/467-2796-l.jpg",
+          "foodName":"Churros, Coffee & Meals",
+          "cafeName":"PCLO Cafe",
+          "cafeLocation":"  Kuala Lumpur, Wilayah Persekutuan",
+          "description1":"Think of Churros, think of PCLO Cafe! Each batch of eggless Churros is made with passion and from scratch in our kitchen. Which ..",
+          "rating":"3",
+          "discount":"20% Off",
+          "expire":"11 Days",
+          "cafePoster":"https://www.kindmeal.my/photos/shop/3/370-c.jpg",
+          "cafeLogo":"https://www.kindmeal.my/photos/shop/3/370-2439-m.jpg",
+          "price":"RM10.00"
+      },
+      {
+          "imageUrl":"https://www.kindmeal.my/photos/deal/4/457-2109-l.jpg",
+          "foodName":"Flavours Around the World",
+          "cafeName":"The Black Cat Cafe ",
+          "cafeLocation":"Kuala Lumpur, Wilayah Persekutuan",
+          "description1":"Western and Asian cuisine, all prepared in our humble kitchen with utmost passion and love. On Weekdays, select ANY items from ..",
+          "rating":"24",
+          "discount":"20% Off",
+          "expire":"4 Days",
+          "cafePoster":"https://www.kindmeal.my/photos/shop/3/335-c.jpg",
+          "cafeLogo":"https://www.kindmeal.my/photos/shop/3/335-2150-m.jpg",
+          "price":"RM10.00"
+      },
+      {
+          "imageUrl":"https://www.kindmeal.my/photos/deal/7/707-4819-l.jpg",
+          "foodName":"Simple Is the Best",
+          "cafeName":"Simple Garden Cafe",
+          "cafeLocation":"Sri Petaling, Kuala Lumpur",
+          "description1":"We strive to delight you with simple yet tasty and nutritious meals that you would simply love! Feast on any items from our meatl..",
+          "rating":"3",
+          "discount":"10% Off",
+          "expire":"13 Days",
+          "cafePoster":"https://www.kindmeal.my/photos/shop/6/601-c.jpg",
+          "cafeLogo":"https://www.kindmeal.my/photos/shop/6/601-4497-m.jpg",
+          "price":"RM13.00"
+      },
+      {
+          "imageUrl":"https://www.kindmeal.my/photos/deal/6/644-3810-l.jpg",
+          "foodName":"Wholesome Western Experience",
+          "cafeName":"Piccolo Cafe ",
+          "cafeLocation":"  Seri Kembangan, Selangor",
+          "description1":"Enjoy delicious, wholesome Western cuisine at our cozy, relaxing cafe while we serenade you with our artsy ambiance and musical mo..",
+          "rating":"0",
+          "discount":"20% off",
+          "expire":"5 Days",
+          "cafePoster":"https://www.kindmeal.my/photos/shop/2/277-c.jpg",
+          "cafeLogo":"https://www.kindmeal.my/photos/shop/2/277-1549-m.jpg",
+          "price":"RM20.00"
+      },{
+          "imageUrl":"https://www.kindmeal.my/photos/deal/3/383-1189-l.jpg",
+          "foodName":"Dining Bowl Asian Delicacies",
+          "cafeName":"Dining Bowl ",
+          "cafeLocation":"  Kuala Lumpur, Wilayah Persekutuan",
+          "description1":"Dine in this authentic cozy Chinese environment with any items from the menu, made with fresh and quality ingredients, in an envir..",
+          "rating":"12",
+          "discount":"20% off",
+          "expire":"2 Days",
+          "cafePoster":"https://www.kindmeal.my/photos/shop/3/305-c.jpg",
+          "cafeLogo":"https://www.kindmeal.my/photos/shop/3/305-2337-m.jpg",
+          "price":"RM5.00"
+      },{
+          "imageUrl":"https://www.kindmeal.my/photos/deal/7/711-4936-l.jpg",
+          "foodName":"Ahimsa Online Store",
+          "cafeName":"Ahimsa ",
+          "cafeLocation":" Beranang, Selangor",
+          "description1":"Ahimsa's online store features an innovative series of food products unique in taste, nutrition and health. To qualify for KindMe..",
+          "rating":"0",
+          "discount":"10% off",
+          "expire":"11 Days",
+          "cafePoster":"https://www.kindmeal.my/photos/shop/6/605-c.jpg",
+          "cafeLogo":"https://www.kindmeal.my/photos/shop/6/605-4616-m.jpg",
+          "price":"RM15.00"
+      },{
+          "imageUrl":"https://www.kindmeal.my/photos/deal/4/403-1390-l.jpg",
+          "foodName":"Wellness Meal + 10% Off Organic Products",
+          "cafeName":"Juve Wellness Puchong ",
+          "cafeLocation":"  Puchong, Selangor",
+          "description1":"Select from Ala Carte meal items from the menu, served with a cup of Wellness Tea! Featured food menu items include: Juve Four Se..",
+          "rating":"4",
+          "discount":"20% off",
+          "expire":"11 Days",
+          "cafePoster":"https://www.kindmeal.my/photos/shop/3/326-c.jpg",
+          "cafeLogo":"https://www.kindmeal.my/photos/shop/3/326-1891-m.jpg",
+          "price":"RM14.90"
+      },{
+          "imageUrl":"https://www.kindmeal.my/photos/deal/6/626-3611-l.jpg",
+          "foodName":"Melakan Indian Fusion Cuisine",
+          "cafeName":"Ssihat Kafe",
+          "cafeLocation":"  Melaka",
+          "description1":"Ignite your taste buds with indian spices and flavours at Melaka's only Indian fully Vegetarian Cafe. We humbly welcome you and y..",
+          "rating":"0",
+          "discount":"20% off",
+          "expire":"11 Days",
+          "cafePoster":"https://www.kindmeal.my/photos/shop/5/500-c.jpg",
+          "cafeLogo":"https://www.kindmeal.my/photos/shop/5/500-3545-m.jpg",
+          "price":"RM10.00"
+      },{
+          "imageUrl":"https://www.kindmeal.my/photos/deal/6/698-4639-l.jpg",
+          "foodName":"Nutritious Meets Delicious",
+          "cafeName":"Wise Crafters ",
+          "cafeLocation":"Petaling Jaya, Selangor",
+          "description1":"Wise Crafters offers freshly-prepared meals, developed by a team of chefs and nutritionists. Let us invigorate your body and mind..",
+          "rating":"0",
+          "discount":"10% off",
+          "expire":"5 Days",
+          "cafePoster":"https://www.kindmeal.my/photos/shop/5/591-c.jpg",
+          "cafeLogo":"https://www.kindmeal.my/photos/shop/5/591-4421-m.jpg",
+          "price":"RM17.00"
+      }
+  ]
+  }

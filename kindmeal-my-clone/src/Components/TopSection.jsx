@@ -1,5 +1,7 @@
 import { Box, HStack } from '@chakra-ui/react'
 import React from 'react'
+import { Link } from 'react-router-dom'
+import { SignupButtonBox } from '../Pages/SignupButtonBox'
 
 const TopSection = () => {
   return (
@@ -17,8 +19,9 @@ const TopSection = () => {
         <Box style={{display : "flex" ,gap:"10px",fontSize:"12px"}}>
           <h5>Login</h5>
           <a href="https://www.kindmeal.my/login.php?action=facebook" style={{backgroundColor :"blue" ,color:"white",padding:"1px 8px",borderRadius:"5px",fontWeight:"bold"}}>Facebook</a>
-          <a href="" style={{backgroundColor :"grey" ,color:"white",padding:"1px 15px",borderRadius:"5px" ,fontWeight:"bold"}}>Email</a>
-          <a href="">Sign Up</a>
+          <Link to="/login"  style={{backgroundColor :"grey" ,color:"white",padding:"1px 15px",borderRadius:"5px" ,fontWeight:"bold"}}>Email</Link>
+          {/* <Link to="signupButton">SignUp</Link> */}
+          <SignupButtonBox />
         </Box>
       </HStack>
     </Box>
