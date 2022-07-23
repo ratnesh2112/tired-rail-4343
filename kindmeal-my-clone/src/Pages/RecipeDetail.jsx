@@ -1,15 +1,10 @@
 import React from 'react'
-import TopSection from '../Components/TopSection'
-import Navbar from '../Components/Navbar'
-import Footer from "../Components/Footer"
 import "./RecipeDetail.css"
 
 
 export const RecipeDetail = () => {
   return (
     <div>
-        <TopSection></TopSection>
-        <Navbar></Navbar>
         
         <div className='container_boxmain'>
             <div className='bigImage'>
@@ -85,7 +80,6 @@ export const RecipeDetail = () => {
               <img src="https://www.kindmeal.my/images/ads/banner_ekoeko-1100x280.jpg" alt=""/>
             </div>
         </div>
-        <Footer></Footer>
     </div>
   )
 }

@@ -117,7 +117,7 @@ const Recipe = () => {
                   <p className="card_author">KindMealChef</p>
                 </div>
                 <button className="card_view_button" >
-                  <p>View</p>
+                  <a href="./RecipeDetail">View</a>
                 </button>
               </div>
               <div className="card_part2" >
@@ -510,14 +510,9 @@ const Recipe = () => {
               </div>
             </div>
           </div>
-
         </div>
-
-
-
     </>
   );
-
 };
 
 export default Recipe;
