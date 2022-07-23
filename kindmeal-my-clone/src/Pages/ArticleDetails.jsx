@@ -11,7 +11,7 @@ import {
   Button,
 } from '@chakra-ui/react';
   import { useNavigate, useParams } from "react-router-dom";
-import { getArticleDetails } from '../redux/action';
+import { getArticleDetails } from '../Redux/action';
 
 const ArticleDetails = () => {
     const params = useParams()

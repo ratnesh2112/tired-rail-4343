@@ -12,6 +12,7 @@ import { SignupButtonBox } from '../Pages/SignupButtonBox';
 import { FoodLoverSignup } from '../Pages/FoodLoverSignup'
 import { Login } from '../Pages/Login'
 import { ForgetPassword } from '../Pages/ForgetPassword'
+import ArticleDetails from '../Pages/ArticleDetails'
 
 
 const AllRoutes = () => {
@@ -29,7 +30,7 @@ const AllRoutes = () => {
             <Route path="/FoodSignup" element={<FoodLoverSignup />} />
             <Route path="/login" element={<Login />} />
             <Route path="/ForgetPassword'" element={<ForgetPassword />} />
-            <Route path="" element={""} />
+            <Route path="/name" element={<ArticleDetails />} />
             <Route path="" element={""} />
         </Routes>
         <Footer />

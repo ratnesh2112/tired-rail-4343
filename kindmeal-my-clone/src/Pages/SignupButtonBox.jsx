@@ -35,7 +35,7 @@ export const SignupButtonBox = () => {
           onClick={() => handleSizeClick(size)}
           m={5}
           style = {{cursor:"pointer"}}
-        >SIGNUP</Text>
+        >SignUp</Text>
         
 
       <Modal onClose={onClose} isOpen={isOpen}  isCentered >

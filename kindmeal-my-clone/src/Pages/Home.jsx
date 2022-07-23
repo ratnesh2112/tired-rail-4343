@@ -48,8 +48,8 @@ const Home = () => {
             <Heading fontSize="30px" fontWeight="normal" color="#707375">Latest News & Videos</Heading>
           </Box>
           <Box fontSize="20px" textDecoration="none" color="blue" padding="15px">
-            <Link to="" >Save Lives with Your Blog  .  </Link>
-            <Link to="">News & Articles   .   </Link>
+            <Link to="help" >Save Lives with Your Blog  .  </Link>
+            <Link to="articles">News & Articles   .   </Link>
             <a href="https://www.facebook.com/KindMeal.my" target="blank">Follow Our Facebook</a>
           </Box>
         </Box>
@@ -82,7 +82,7 @@ const Home = () => {
             <Heading fontSize="30px" fontWeight="normal" color="#707375">Yummylicious Moments</Heading>
           </Box>
           <Box fontSize="20px" textDecoration="none" color="blue" padding="15px">
-            <Link to="" >Secret Recipes  .  </Link>
+            <Link to="recipe" >Secret Recipes  .  </Link>
             <Link to="">Member Hot Pics   .   </Link>
             <a href="https://www.facebook.com/KindMeal.my" target="blank">Photo Moments</a>
           </Box>
