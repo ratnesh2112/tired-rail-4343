@@ -23,7 +23,7 @@ const handleSubmit=()=>{
     }
     dispatch(Register(params)).then((r)=>{
         if(r===REGISTER_SUCCESS){
-           navigate("/login",{replace:true})
+           navigate("/Login",{replace:true})
         }
     })
   }
