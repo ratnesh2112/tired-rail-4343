@@ -31,7 +31,7 @@ const AllRoutes = () => {
             />
             <Route path="mealdeal" element={
               <PrivateRoute>
-                <MealDeals > 
+                <MealDeals /> 
               </PrivateRoute>
               } 
             />
