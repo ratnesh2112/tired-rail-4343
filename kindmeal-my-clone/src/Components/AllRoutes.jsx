@@ -13,6 +13,7 @@ import { FoodLoverSignup } from '../Pages/FoodLoverSignup'
 import { Login } from '../Pages/Login'
 import { ForgetPassword } from '../Pages/ForgetPassword'
 
+
 const AllRoutes = () => {
   return (
     <div>
@@ -20,7 +21,7 @@ const AllRoutes = () => {
         <Navbar />
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="recipe" element={ <Recipe /> } />
+            <Route path="recipe" element={<Recipe /> } />
             <Route path="mealdeal" element={<MealDeals />} />
             <Route path="articles" element={<Articles />} />
             <Route path="help" element={<Help />} />
