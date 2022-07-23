@@ -71,7 +71,7 @@ import {
             </Stack>
           </Flex>
           
-          <Stack    marginLeft={"40px"} spacing={3} >
+          <Stack    marginLeft={"40px"} spacing={3}>
             
             <Text textAlign={"left"} fontSize={"25px"}> General Help </Text>
             <Text  color={'gray.500'} textAlign={"left"} fontSize={'lg'}>

@@ -4,6 +4,11 @@ export const GET_ARTICLE_REQUEST = "GET_ARTICLE_REQUEST";
 export const GET_ARTICLE_SUCCESS = "GET_ARTICLE_SUCCESS";
 export const GET_ARTICLE_FAILURE = "GET_ARTICLE_FAILURE";
 
+export const GET_DETAIL_ARTICLE_REQUEST = "GET_DETAIL_ARTICLE_REQUEST";
+export const GET_DETAIL_ARTICLE_SUCCESS = "GET_DETAIL_ARTICLE_SUCCESS";
+export const GET_DETAIL_ARTICLE_FAILURE = "GET_DETAIL_ARTICLE_FAILURE";
+
+
 
 
 export const getArticleRequest = ()=>{
@@ -25,9 +30,36 @@ export const getArticleSuccess = (data)=>{
 
 export const getArticleFailure = ()=>{
     return({
-        type:GET_ARTICLE_FAILURE
+        type:GET_ARTICLE_REQUEST
     })
 }
+
+
+
+export const getArticDetailsleRequest = ()=>{
+    return({
+         type:GET_DETAIL_ARTICLE_REQUEST
+    })
+}
+
+
+
+export const getArticleDetailsSuccess = (data)=>{
+    return({
+        type:GET_DETAIL_ARTICLE_SUCCESS,
+        payload:data
+    })
+}
+
+
+
+export const getArticleDetailsFailure = ()=>{
+    return({
+        type:GET_DETAIL_ARTICLE_FAILURE
+    })
+}
+
+
 
 
 
@@ -36,16 +68,41 @@ export const getArticle=()=>(dispatch)=>{
   dispatch(getArticleRequest())
 return axios({
     method:"GET",
-    url:"http://localhost:3000/articles"
+    url:"https://newsapi.org/v2/top-headlines?country=in&q=india&apiKey=a9287147fa8b474e9923530d25e7d64a"
 })
+
 .then(res=>{
     dispatch(getArticleSuccess(res.data))
 })
+
 .catch(error=>{
     dispatch(getArticleFailure())
 })
 
 }
+
+
+
+
+
+
+export const getArticleDetails=(query)=>(dispatch)=>{
+    dispatch(getArticDetailsleRequest())
+  return axios({
+      method:"GET",
+      url:`https://newsapi.org/v2/top-headlines?country=in&q=${query}&apiKey=a9287147fa8b474e9923530d25e7d64a`
+  })
+  
+  .then(res=>{
+      dispatch(getArticleDetailsSuccess(res.data))
+  })
+  
+  .catch(error=>{
+      dispatch(getArticleDetailsFailure())
+  })
+  
+  }
+  
 
 //Engadget
 
