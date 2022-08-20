@@ -4,7 +4,9 @@ indulging you with delicious discounted vegetarian meals at cozy environments.
 We aim to encourage people in reducing meat consumption, 
 saving precious animal lives, health, environment and money with tasty meals
 
-# prerequisites
+ ### https://tired-rail-4343.netlify.app
+
+## Prerequisites
 
  npm install
  
@@ -12,42 +14,36 @@ saving precious animal lives, health, environment and money with tasty meals
  
  Run json server on port 8080
  
- # [Deployed Link](https://tired-rail-4343.netlify.app)
 
-# Tech-Stack Used
-React
+## Tech-Stack Used
+#### React
 
-Redux
+#### Redux
 
-HTML5
+#### HTML5
 
-CSS3
+#### CSS3
 
-Javascript
+#### Javascript
 
-ChakraUI
-
+#### ChakraUI
 
 
-
-
-## Demo
-
-
-
-![](https://media.giphy.com/media/wsGdlfCvbpLlw0V9x0/giphy.gif)
 
 
 ## Screenshots
 
-![App Screenshot](https://miro.medium.com/max/1400/1*nISTkj_oi4-0nN59dH6Bxw.png)
-![App Screenshot](https://cdn-images-1.medium.com/max/1200/1*QBKbyzkMwgKQN7Y_BoNGxg.png)
-![App Screenshot](https://cdn-images-1.medium.com/max/1200/1*4QXGgoleft5AOfIZM1Vd8A.png)
-![App Screenshot](https://cdn-images-1.medium.com/max/1200/1*bUJHCA8zMvkTxuiPqvJLOw.png)
+![Screenshot (338)](https://user-images.githubusercontent.com/101574926/185731201-fc4bda99-975e-4aba-99cb-81feb208e985.png)
+![Screenshot (379)](https://user-images.githubusercontent.com/101574926/185731405-194e39fc-4183-48dc-a1aa-c3754f573b06.png)
+![Screenshot (377)](https://user-images.githubusercontent.com/101574926/185731318-67b16e4f-538c-42e0-8ce4-2202e6c946a4.png)
 
 
-Contributers
+
+
+## Contributers
+
 - Ratnesh Kumar
-- Sahil Kumar
-- Madhuri Patel
-- Shameem A
+- Kurva Shravan Kumar
+- Rushikesh Pardhikar
+- Arunraj MK
+- Shivam Yadav
