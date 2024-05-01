@@ -7,7 +7,6 @@ import { DetailDescription } from '../Components/ProductPage/ProductDescriptionC
 import { DescriptionTopPoster } from '../Components/ProductPage/ProductPosters/DeacriptionTopPoster'
 
 export const ProductPage = () => {
-
   const {id}=useParams();
   const[data,setdata]=useState([]);
 
